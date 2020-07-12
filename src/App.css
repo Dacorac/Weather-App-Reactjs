@@ -1,0 +1,162 @@
+.main-nav {
+  background-color: #2396BD;
+}
+
+.main-nav__brand-link {
+  color: #FFF !important;  
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.main-nav__brand-link:hover {
+  text-decoration: none !important;
+}
+
+.main-nav__menu-link {
+  color: #FFF !important; 
+}
+
+.main-nav__menu-link:hover {
+ text-decoration: none;
+}
+
+.main-nav__menu-link.active {
+  color: #707070 !important; 
+}
+
+.main-nav__toggle {
+  color: #FFF !important; 
+}
+
+.form__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__content-label {
+  color: #48484A;
+  font-weight: 600;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.weather-card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-card__content-info {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #707070;
+  align-items: center;
+  padding: .5rem;
+  font-size: 14px;
+}
+
+.weather-card__content-info .badge {
+  display: flex;
+  align-items: center;
+  height: min-content;
+  background-color: #2396BD;
+}
+
+.weather-card__content-info .description {
+  font-weight: 600;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.forecast-card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+  min-width: 150px;
+  border: 1px solid #707070;
+  font-size: 14px;
+  margin: .5rem;
+  padding: .5rem;
+}
+
+.forecast-card__content-title {
+  font-weight: 600;
+}
+
+.forecast-card__content-title.active {
+  color: #2396BD;
+}
+
+.forecast-card__content-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.forecast-card__content-info .temp {
+  font-weight: 600;
+}
+
+.history__content-title {
+  padding: .5rem;
+}
+
+.history-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.history-card__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 15%;
+  min-width: 150px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  margin: .5rem;
+  border: 1px solid #707070;
+}
+
+.history__content-title {
+  color: #48484A;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.history-card__content-temp .badge {
+  display: flex;
+  align-items: center;
+  height: min-content;
+  padding: .3rem;
+  background-color: #2396BD;
+}
+
+.history-card__content-button {
+  border-top: 1px solid #707070;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.history-card__content-collapse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-card__content-collapse span {
+  font-size: 12px;
+}
